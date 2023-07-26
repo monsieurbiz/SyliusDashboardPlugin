@@ -1,0 +1,6 @@
+{#
+UI Element template
+type: sales_summary_chart
+#}
+
+{{ render(controller('sylius.controller.admin.dashboard.statistics::renderStatistics', { 'channel': channel })) }}

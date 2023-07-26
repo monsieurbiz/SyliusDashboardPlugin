@@ -1,0 +1,5 @@
+{% set settingDashboardAdminChartBlock = setting('monsieurbiz.dashboard', 'dashboardPage') %}
+
+{% if settingDashboardAdminChartBlock|default('') is not empty %}
+   {{ settingDashboardAdminChartBlock|monsieurbiz_richeditor_render_field }}
+{% endif %}

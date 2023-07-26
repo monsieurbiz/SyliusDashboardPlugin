@@ -62,5 +62,4 @@ final class MonsieurBizSyliusDashboardExtension extends Extension implements Pre
             'Sylius\Bundle\CoreBundle\Migrations',
         ];
     }
-
 }

@@ -1,0 +1,49 @@
+monsieurbiz_sylius_settings:
+    plugins:
+        monsieurbiz.dashboard:
+            vendor_name: Monsieur Biz
+            plugin_name: Dashboard
+            description: Dashboard configuration
+            icon: chart area
+            use_locales: false
+            classes:
+                form: MonsieurBiz\SyliusDashboardPlugin\Form\Settings\DashboardSettingsType
+            default_values:
+                dashboardPage: |
+                    [
+                      {
+                          "code": "monsieurbiz_dashboard.default_sales_summary_chart",
+                          "data": []
+                      },
+                      {
+                          "code": "monsieurbiz_dashboard.menu_buttons",
+                          "data": {
+                              "items": [
+                                  {
+                                      "label": "Products",
+                                      "route": "sylius_admin_product_index",
+                                      "icon": "cubes"
+                                  },
+                                  {
+                                      "label": "Orders",
+                                      "route": "sylius_admin_order_index",
+                                      "icon": "shop"
+                                  },
+                                  {
+                                      "label": "Customers",
+                                      "route": "sylius_admin_customer_index",
+                                      "icon": "users"
+                                  },
+                                  {
+                                      "label": "Promotions",
+                                      "route": "sylius_admin_promotion_index",
+                                      "icon": "ticket"
+                                  }
+                              ]
+                          }
+                      },
+                      {
+                          "code": "monsieurbiz_dashboard.latest_orders_and_customers",
+                          "data": []
+                      }
+                    ]

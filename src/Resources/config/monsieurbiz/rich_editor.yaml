@@ -1,0 +1,35 @@
+monsieurbiz_sylius_richeditor:
+    ui_elements:
+        monsieurbiz_dashboard.default_sales_summary_chart:
+            alias: default_sales_summary_chart
+            title: 'monsieurbiz.dashboard.ui_elements.default_sales_summary_chart.title'
+            description: 'monsieurbiz.dashboard.ui_elements.default_sales_summary_chart.description'
+            icon: chart area
+            classes:
+                form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\DefaultSalesSummaryChartType
+            templates:
+                admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/default_sales_summary_chart.html.twig'
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/default_sales_summary_chart.html.twig'
+            tags: [mbiz_dashboard_admin]
+        monsieurbiz_dashboard.menu_buttons:
+            alias: buttons_menu
+            title: 'monsieurbiz.dashboard.ui_elements.menu_buttons.title'
+            description: 'monsieurbiz.dashboard.ui_elements.menu_buttons.description'
+            icon: bars
+            classes:
+                form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\MenuButtonsType
+            templates:
+                admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/menu_buttons.html.twig'
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/menu_buttons.html.twig'
+            tags: [ mbiz_dashboard_admin ]
+        monsieurbiz_dashboard.latest_orders_and_customers:
+            alias: latest_orders_and_customers
+            title: 'monsieurbiz.dashboard.ui_elements.latest_orders_and_customers.title'
+            description: 'monsieurbiz.dashboard.ui_elements.latest_orders_and_customers.description'
+            icon: shop
+            classes:
+                form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\LatestOrdersAndCustomersType
+            templates:
+                admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/latest_orders_and_customers.html.twig'
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/latest_orders_and_customers.html.twig'
+            tags: [ mbiz_dashboard_admin ]

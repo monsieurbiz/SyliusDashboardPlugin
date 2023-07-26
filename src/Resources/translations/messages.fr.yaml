@@ -1,0 +1,23 @@
+monsieurbiz:
+    dashboard:
+        settings:
+            dashboard_page: 'Page dashboard'
+        ui_elements:
+            default_summary_chart:
+                title: 'Graphique récipitulatif des ventes par défaut'
+                description: 'Lame admin graphique récipitulatif des ventes par défaut'
+            menu_buttons:
+                title: 'Boutons de menu'
+                description: 'Bouton sous forme de menu pour l''admin'
+                field:
+                    items: 'Éléments'
+            menu_button:
+                field:
+                    label: 'Label'
+                    route: 'Route'
+                    route_help: 'Une route valide de l''application Sylius'
+                    icon: 'Icône'
+                    icon_help: 'Vous pouvez retrouver les icônes sur <a href="https://semantic-ui.com/elements/icon.html" rel="noopener noreferrer nofollow" target="_blank">Semantic UI</a>'
+            latest_orders_and_customers:
+                title: 'Dernières commandes et clients'
+                description: 'Lame admin dernières commandes et clients'

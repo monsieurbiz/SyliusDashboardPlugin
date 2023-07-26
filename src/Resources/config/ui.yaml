@@ -1,0 +1,11 @@
+sylius_ui:
+    events:
+        sylius.admin.dashboard.content:
+            blocks:
+                statistics:
+                    template: "@MonsieurBizSyliusDashboardPlugin/Admin/Dashboard/_dashboard.html.twig"
+                    priority: 30
+                menu:
+                    enabled: false
+                latest:
+                    enabled: false

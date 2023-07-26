@@ -1,0 +1,23 @@
+monsieurbiz:
+    dashboard:
+        settings:
+            dashboard_page: 'Dashboard page'
+        ui_elements:
+            default_sales_summary_chart:
+                title: 'Default sales summary chart'
+                description: 'Admin default block sales summary chart'
+            menu_buttons:
+                title: 'Menu buttons'
+                description: 'Admin menu buttons'
+                field:
+                    items: 'Items'
+            menu_button:
+                field:
+                    label: 'Label'
+                    route: 'Route'
+                    route_help: 'A valid Sylius application route'
+                    icon: 'Icon'
+                    icon_help: 'You can find icons on <a href="https://semantic-ui.com/elements/icon.html" rel="noopener noreferrer nofollow" target="_blank">Semantic UI</a>'
+            latest_orders_and_customers:
+                title: 'Latest orders and customers'
+                description: 'Admin block latest orders and customers'

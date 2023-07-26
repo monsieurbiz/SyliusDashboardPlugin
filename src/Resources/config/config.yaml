@@ -1,0 +1,3 @@
+imports:
+    - { resource: 'monsieurbiz/*.yaml' }
+    - { resource: 'ui.yaml' }
