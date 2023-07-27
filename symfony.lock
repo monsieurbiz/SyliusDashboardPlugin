@@ -140,6 +140,19 @@
             "ref": "e4d7cf0fc492ff63d6f136eb0e5cead10452b088"
         }
     },
+    "monsieurbiz/sylius-settings-plugin": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "fafa903dedd49e881d21be1236c3d002e45278ed"
+        },
+        "files": [
+            "config/packages/monsieurbiz_settings_plugin.yaml",
+            "config/routes/monsieurbiz_settings_plugin.yaml"
+        ]
+    },
     "payum/payum-bundle": {
         "version": "2.5",
         "recipe": {
@@ -351,6 +364,15 @@
             "config/packages/security.yaml"
         ]
     },
+    "symfony/stimulus-bundle": {
+        "version": "2.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.8",
+            "ref": "9e33a8a3794b603fb4be6c04ee5ecab901ce549e"
+        }
+    },
     "symfony/translation": {
         "version": "6.3",
         "recipe": {
@@ -376,6 +398,9 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
+    },
+    "symfony/ux-chartjs": {
+        "version": "v2.10.0"
     },
     "symfony/validator": {
         "version": "6.3",

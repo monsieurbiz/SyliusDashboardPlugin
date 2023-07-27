@@ -1,0 +1,4 @@
+monsieurbiz_sylius_dashboard_admin:
+    resource: "@MonsieurBizSyliusDashboardPlugin/Resources/config/routes/admin.yaml"
+    prefix: /%sylius_admin.path_name%
+    

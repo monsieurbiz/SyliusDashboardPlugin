@@ -1,0 +1,4 @@
+monsieurbiz_sylius_dashboard_admin_chart_sales:
+    path: dashboard/chart/sales
+    controller: MonsieurBiz\SyliusDashboardPlugin\Controller\Admin\TestChartController::chartjs
+    methods: ['GET']

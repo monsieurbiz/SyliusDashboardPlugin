@@ -5,10 +5,11 @@
     "description": "Add a dashboard plugin to your Sylius.",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-        "sylius/sylius": ">=1.11 <1.13",
+        "php": "^8.1",
+        "sylius/sylius": "~1.12.0",
         "monsieurbiz/sylius-rich-editor-plugin": "^2.3",
-        "monsieurbiz/sylius-settings-plugin": "^1.0"
+        "monsieurbiz/sylius-settings-plugin": "^1.0",
+        "symfony/ux-chartjs": "~2.10.0"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -60,16 +61,19 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "symfony": {
+            "allow-contrib": "true"
         }
     },
     "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "symfony/thanks": true,
-            "ergebnis/composer-normalize": true,
-            "symfony/flex": true,
-            "php-http/discovery": true,
-            "phpstan/extension-installer": true
+        "allow-plugins": true
+    },
+    "repositories": {
+        "plugin": {
+            "type": "path",
+            "url": "../../"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

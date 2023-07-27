@@ -1,0 +1,14 @@
+{
+  "entrypoints": {
+    "dashboard-plugin": {
+      "js": [
+        "/public/runtime.js",
+        "/public/vendors-tests_Application_node_modules_symfony_stimulus-bridge_dist_index_js-tests_Applicatio-63ea7c.js",
+        "/public/dashboard-plugin.js"
+      ],
+      "css": [
+        "/public/dashboard-plugin.css"
+      ]
+    }
+  }
+}

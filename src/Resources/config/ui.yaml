@@ -9,3 +9,4 @@ sylius_ui:
                     enabled: false
                 latest:
                     enabled: false
+
