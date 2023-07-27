@@ -3,5 +3,3 @@
 {% if settingDashboardAdminChartBlock|default('') is not empty %}
    {{ settingDashboardAdminChartBlock|monsieurbiz_richeditor_render_field }}
 {% endif %}
-
-{{ render(url('monsieurbiz_sylius_dashboard_admin_chart_sales')) }}
