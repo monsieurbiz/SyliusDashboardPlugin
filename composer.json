@@ -37,6 +37,9 @@
         "phpspec": "phpspec run"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
         "symfony": {
             "docker": false,
             "endpoint": ["https://api.github.com/repos/monsieurbiz/symfony-recipes/contents/index.json?ref=flex/master", "flex://defaults"]
