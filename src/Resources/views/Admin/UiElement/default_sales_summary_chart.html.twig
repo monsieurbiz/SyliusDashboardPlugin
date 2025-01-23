@@ -3,4 +3,10 @@ UI Element template
 type: sales_summary_chart
 #}
 
-{# Nothing special to display #}
+{% if channel is defined %}
+    {{ render(controller('sylius.controller.admin.dashboard.statistics::renderStatistics', { 'channel': channel })) }}
+{% else %}
+    <div class="ui secondary center aligned segment">
+        {{ 'monsieurbiz.dashboard.ui_elements.default_sales_summary_chart.label.display_here'|trans }}
+    </div>
+{% endif %}
