@@ -3,4 +3,17 @@ UI Element template
 type: latest_orders_and_customers
 #}
 
-{# Nothing special to display #}
+{% if channel is defined %}
+    <div class="ui two column stackable grid">
+        <div class="column">
+            {{ render(url('sylius_admin_partial_customer_latest', {'count': 5, 'template': '@SyliusAdmin/Dashboard/_customers.html.twig'})) }}
+        </div>
+        <div class="column">
+            {{ render(path('sylius_admin_partial_order_latest_in_channel', {'channelCode': channel.code, 'count': 5, 'template': '@SyliusAdmin/Dashboard/_orders.html.twig'})) }}
+        </div>
+    </div>
+{% else %}
+    <div class="ui secondary center aligned segment">
+        {{ 'monsieurbiz.dashboard.ui_elements.latest_orders_and_customers.label.display_here'|trans }}
+    </div>
+{% endif %}

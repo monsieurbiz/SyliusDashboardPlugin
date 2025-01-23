@@ -6,6 +6,8 @@ monsieurbiz:
             default_summary_chart:
                 title: 'Graphique récipitulatif des ventes par défaut'
                 description: 'Lame admin graphique récipitulatif des ventes par défaut'
+                label:
+                    display_here: 'Votre graphique récipitulatif des ventes sera affiché ici'
             menu_buttons:
                 title: 'Boutons de menu'
                 description: 'Bouton sous forme de menu pour l''admin'
@@ -21,3 +23,5 @@ monsieurbiz:
             latest_orders_and_customers:
                 title: 'Dernières commandes et clients'
                 description: 'Lame admin dernières commandes et clients'
+                label:
+                    display_here: 'Vos dernières commandes et clients seront affichés ici'

@@ -6,6 +6,8 @@ monsieurbiz:
             default_sales_summary_chart:
                 title: 'Default sales summary chart'
                 description: 'Admin default block sales summary chart'
+                label:
+                    display_here: 'Your sales summary chart will be displayed here'
             menu_buttons:
                 title: 'Menu buttons'
                 description: 'Admin menu buttons'
@@ -21,3 +23,5 @@ monsieurbiz:
             latest_orders_and_customers:
                 title: 'Latest orders and customers'
                 description: 'Admin block latest orders and customers'
+                label:
+                    display_here: 'Your latest orders and customers will be displayed here'

@@ -8,8 +8,8 @@ monsieurbiz_sylius_richeditor:
             classes:
                 form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\DefaultSalesSummaryChartType
             templates:
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/default_sales_summary_chart.html.twig'
                 admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/default_sales_summary_chart.html.twig'
-                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/default_sales_summary_chart.html.twig'
             tags: [mbiz_dashboard_admin]
         monsieurbiz_dashboard.menu_buttons:
             alias: buttons_menu
@@ -19,8 +19,8 @@ monsieurbiz_sylius_richeditor:
             classes:
                 form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\MenuButtonsType
             templates:
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/menu_buttons.html.twig'
                 admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/menu_buttons.html.twig'
-                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/menu_buttons.html.twig'
             tags: [ mbiz_dashboard_admin ]
         monsieurbiz_dashboard.latest_orders_and_customers:
             alias: latest_orders_and_customers
@@ -30,6 +30,6 @@ monsieurbiz_sylius_richeditor:
             classes:
                 form: MonsieurBiz\SyliusDashboardPlugin\Form\Type\UiElement\LatestOrdersAndCustomersType
             templates:
+                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/latest_orders_and_customers.html.twig'
                 admin_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/latest_orders_and_customers.html.twig'
-                front_render: '@MonsieurBizSyliusDashboardPlugin/Admin/UiElement/AdminRender/latest_orders_and_customers.html.twig'
             tags: [ mbiz_dashboard_admin ]
